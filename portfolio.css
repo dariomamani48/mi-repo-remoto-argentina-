@@ -1,0 +1,254 @@
+:root{
+  --fuente-titulo:  'Hind Madurai', sans-serif;
+  --fuente-texto:  'Roboto Slab', serif;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(/assets/img/fondoHome.png) fixed no-repeat center;
+    width: 100%;
+    
+}
+/* Header */
+header{
+    /* Fondo */
+    background-color: rgba(34, 33, 33, 0.041);
+    /* display */
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.logoAP{
+    /* display */
+    display: flex;
+    align-items: center;
+    /* color */
+    color: white;
+}
+#logoApImg{
+    width: 12.5%; /* ancho */
+    
+}
+
+#userlogo{
+    width:10%;
+}
+
+.redesLogin{
+    /* display */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* color */
+    color: white;
+    
+}
+.redesUp{
+    margin: 10px;
+    font-size: 1.5em;
+    
+}
+
+#login{
+    width: 30%;
+}
+.fa-user-circle{
+    font-size: 3em;
+    margin-right: 15px;
+}
+/* Fin del Header */
+
+/* inicio del banner */
+/* Slideshow container */
+.slideshow-container {
+    max-width: 90%;
+    max-height: 33%;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* hover de los botones del banner */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  
+  
+ 
+  /* dots */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  /* Fin del Banner */
+
+  
+  /* Inicio del main */
+  main{
+    background-color:#63636393;
+    color: white;
+    padding: 15px;
+  }
+  .aboutContainer{
+    display: flex;
+    border-bottom: solid 1px #000;
+    padding-bottom: 30px;
+  }
+  .tituloPrincipal{
+    
+    font-family:var(--fuente-titulo);
+    text-align: center;
+    font-size: 3em;
+  }
+  .avatarPrincipal{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .avatarPrincipal img{
+    width: 300px;
+    border-radius: 100%;
+  }
+  /* about */
+  .about{
+    display: flex;
+    flex-direction: column;
+
+    padding: 15px;
+  }
+  #nombreUser{
+    font-family:var(--fuente-titulo);
+    font-size: 1.8em;
+    margin-bottom: 3.5%;
+    margin-left: 3%;
+  }
+  .descriptionAbout{
+    font-family: var(--fuente-texto);
+    font-size: 1.5em;
+    margin-left: 3%;
+  }
+  .subtituloImg{
+    font-family:var(--fuente-titulo);
+    font-size: 1.8em;
+    text-align: center;
+  }
+
+  /* Experiencia */
+  .experiencia{
+    padding: 15px;
+  }
+  .logoEmpresa{
+    width:250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: contain;
+  }
+  .logokdds{
+    background-color:white;
+  }
+  .card{
+    display: flex;
+    gap: 3%;
+    align-items:center;
+    margin-bottom: 5%;
+  }
+  .tituloExp{
+    font-family:var(--fuente-titulo);
+    font-size: 1.8em;
+    
+  }
+  .descripcionTrabajo{
+    font-family: var(--fuente-texto);
+    font-size: 1.8em;
+  }
+
+  /* Footer */
+  footer{
+    background-color: rgba(9, 6, 20, 0.938);
+    height: 250px;
+    display: flex;
+    padding: 100px;
+  }
+  .redesDown{
+    color: #bbb;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    
+  }
+  .redes{
+    width: 30%;
+
+  }
+
+
+  .mainLogin{
+    display: block;
+    margin: 25px 450px;
+  }
+
+  #headerpropio{
+    display: flex;
+  }

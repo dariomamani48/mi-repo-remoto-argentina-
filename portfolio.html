@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolio.css">
+    <!-- CDN FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" crossorigin="anonymous">
+    <!-- Fin CDN FonAwesome -->
+    <!-- Cdn Bootstrap -->
+    <!-- fin boots -->
+    <title>Portfolio- Dario Mamani</title>
+    <!-- script -->
+    <script src="porfolio.js" defer></script>
+    <!-- Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@500&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logoAP">
+            <a href="/portfolio.html"><img id="logoApImg" src="//argentinaprograma.inti.gob.ar/pluginfile.php/1/theme_moove/logo/1638313837/APLogo-20-20.png" alt="argpprod"></a>
+            <p>#YoProgramo</p>
+        </div>
+        <div class="redesLogin">
+            <div class="redesUp">
+                <a href="https://github.com/dariomamani48" target="_blank"><i class="fab fa-git-alt"></i></a>
+                <a href="https://www.linkedin.com/in/dario-mamani/" target="_blank" ><i class="fab fa-linkedin"></i></a>
+            </div>
+            <div class="login">
+                <a href="/login.html" id="login"><i class="fas fa-user-circle"></i></a>
+            </div>
+        </div>
+    </header>
+    <!-- Fin del Header -->
+    <!-- Banner -->
+    <div class="slideshow-container">
+
+        <!-- Contenedor de imagenes -->
+        <div class="mySlides fade">
+          
+          <img src="/assets/img/banner1.jpg" style="width:100%">
+          
+        </div>
+      
+        <div class="mySlides fade">
+          
+          <img src="/assets/img/banner2.jpg" style="width:100%">
+          
+        </div>
+      
+        <div class="mySlides fade">
+          
+          <img src="/assets/img/banner3.jpeg" style="width:100%">
+          
+        </div>
+      
+        <!-- Boton next, boton prev -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      
+      <!-- Circulos selectores -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+      <!-- Fin del Banner -->
+      <!-- Inicio del main -->
+      <main>
+          <h1 class="tituloPrincipal">Bienvenido a mi Portfolio</h1>
+          <div class="aboutContainer">
+            <section class="avatarPrincipal">
+              <img src="/assets/img/logouser.png" alt="imagenPerfil">
+              <h4 class="subtituloImg">Desarrollador Web Full-Stack Jr</h4>
+              
+          </section>
+          <section class="about">
+            <h3 id="nombreUser">Ruben Dario Mamani Duarte</h3> 
+            <p class="descriptionAbout">Me apasiona todo lo digital.
+              Soy una persona resolutiva, con gran capacidad de aprendizaje y mucha experiencia trabajando en equipos.
+              Busco la posibilidad de demostrar todo lo aprendido y aplicarlo a nuevos proyectos.
+              Quero Desarrollarme en el ámbito de la tecnología y crecer en nuevos conocimientos a diario. ¡Si lo podes Imaginar, Lo podemos programar! </p>
+          </section>
+          </div>
+          <section class="experiencia">
+            <h2 class="subtituloImg">Ultimos Trabajos </h2>
+            <div class="cardContainer">
+                <div class="card">
+                  <img class="logoEmpresa logokdds" src="/assets/img/LOGOkdds.png" alt="logo-kdds">
+                  <div>
+                    <h3 class="tituloExp">Titulo</h3>
+                    <p class="descripcionTrabajo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias quibusdam, cum iusto nihil corporis saepe quas ea nostrum aut, adipisci assumenda nesciunt accusamus excepturi qui dicta corrupti dolore iure odit!</p>
+                    <span>17/07/21</span>
+                  </div>
+                </div>
+                <div class="card">
+                  <img class="logoEmpresa" src="/assets/img/logotp.png" alt="">
+                  <div>
+                    <h3 class="tituloExp">Titulo</h3>
+                    <p class="descripcionTrabajo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias quibusdam, cum iusto nihil corporis saepe quas ea nostrum aut, adipisci assumenda nesciunt accusamus excepturi qui dicta corrupti dolore iure odit!</p>
+                    <span>17/07/21</span>
+                  </div>
+                </div>
+            </div>
+          </section>
+          <section class="experiencia">
+            <h2 class="subtituloImg">Educacion </h2>
+            <div class="cardContainer">
+                <div class="card">
+                  <img class="logoEmpresa logokdds" src="/assets/img/LOGOkdds.png" alt="logo-kdds">
+                  <div>
+                    <h3 class="tituloExp">Titulo</h3>
+                    <p class="descripcionTrabajo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias quibusdam, cum iusto nihil corporis saepe quas ea nostrum aut, adipisci assumenda nesciunt accusamus excepturi qui dicta corrupti dolore iure odit!</p>
+                    <span>17/07/21</span>
+                  </div>
+                </div>
+                <div class="card">
+                  <img class="logoEmpresa" src="/assets/img/logotp.png" alt="">
+                  <div>
+                    <h3 class="tituloExp">Titulo</h3>
+                    <p class="descripcionTrabajo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias quibusdam, cum iusto nihil corporis saepe quas ea nostrum aut, adipisci assumenda nesciunt accusamus excepturi qui dicta corrupti dolore iure odit!</p>
+                    <span>17/07/21</span>
+                  </div>
+                </div>
+            </div>
+          </section>
+      </main>
+      <footer class="footerP">
+        <div class="imgFooter">
+          <div class="logoAP">
+            <img id="logoApImg" src="//argentinaprograma.inti.gob.ar/pluginfile.php/1/theme_moove/logo/1638313837/APLogo-20-20.png" alt="argpprod">
+            <p>#YoProgramo</p>
+        </div>
+        </div>
+        <div class="redes">
+          <ul class="redesDown">
+            <li><i class="fa-brands fa-facebook-square"></i></li>
+            <li><i class="fa-brands fa-instagram"></i></li>
+            <li><i class="fa-brands fa-linkedin"></i></li>
+            <li><i class="fa-brands fa-github-square"></i></li>
+          </ul>
+        </div>
+        <div class="contacto"></div>
+      </footer>
+</body>
+</html>
