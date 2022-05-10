@@ -1,1 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    background-color:  #082040;
+    background: fixed no-repeat left/100% url('./app/assets/img/fondoHome.png');
+object-fit: cover;
+
+}
